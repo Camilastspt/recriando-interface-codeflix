@@ -8,7 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>"
     <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Nunito:ital,wght@1,200&family=Press+Start+2P&family=Red+Rose:wght@600&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b8a45a0a52.js" crossorigin="anonymous"></script>
+   <!--Link Boostrap Botao-->
+   
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="style/responsive.css">     
+
     <title>CODE FLIX</title>
 </head>
 <body>
@@ -17,9 +24,9 @@
             <h2 class="logo">CODEFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
-                <a href="#">Tutoriais</a>
-                <a href="#">Youtube</a>
-                <a href="#">Cursos</a>
+                <a href="https://www.w3schools.com/default.asp" target="_blank">W3 Tutoriais</a>
+                <a href="https://www.youtube.com/c/DigitalInnovationOne" target="_blank">Youtube</a>
+                <a href="https://www.youtube.com/playlist?list=PLPFhNx6dMDJpokM--TiI3xDUR7mbRbrre" target="_blank">Cursos</a>
 
             </nav>
         </div>
@@ -27,17 +34,67 @@
     
     <main> 
         <div class="principal">
-            <div class="contaiber">
+            <div class="container">
                 <h3 class="titulo">Digital Innovation One</h3>
                 <p class="descricao">Nossos cursos e programas de formação são criados com especialistas das melhores empresas inovadoras do mundo, aplicando uma metodologia para que você possa dominar as tecnologias utilizadas no mercado de trabalho e também incluir as mais novas e atuais tecnologias que impactarão o futuro dos negócios digitais.
                 </p>
             </div>
-            <div role="button" class="botao"> <buttom class="botao1"> <i class="fa-solid fa-play"> </i>ASSISTIR AGORA
-            </buttom>
-            <buttom class="botao2"> <i class="fa-solid fa-play"> </i> INFORMAÇÕES
-            </buttom>
-            </div>
+
+            <div class="botao-start">
+            
+            <button role="button" type="button"> <i class="fa-solid fa-play"> </i><a href="https://www.dio.me/"> ASSISTIR AGORA
+            </a> </button>
+
+            <button role="button" type="button"> <i class="fa-solid fa-info"></i> INFORMAÇÕES
+            </button>
+            </div>            
         </div>
     </main>
+
+    <div class="carrosel-itens">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+            
+                <img class="box-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+          
+            </div>
+            <div class="item">
+            
+                
+            <img class="box-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+          
+          
+            </div>
+            <div class="item">
+            
+                <img class="box-item" src= "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+          
+            </div>
+            <div class="item">
+            
+                <img class="box-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg">
+
+            </div>
+            <div class="item">
+            
+                <img class="box-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg">
+            </div>
+            <div class="item">
+            
+                <img class="box-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg">
+            </div>
+            <div class="item">
+            
+                <img class="box-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/b8a45a0a52.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>  </script>
+    <script src="js/owl/owl.carousel.min.js"></script>  </script>
+    <script src="js/owl/setup.js"></script>  </script>
+   
 </body>
 </html>
